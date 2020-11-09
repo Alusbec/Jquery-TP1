@@ -1,0 +1,63 @@
+@font-face{
+    font-family: "coconut";
+    src: url(../POLICE/Coconut\ Punch\ DEMO.otf)
+}
+
+body { background-image: url(../IMG/123456.png);
+    font-family: "coconut";
+    text-shadow: #000000 2PX 2PX 2PX;
+    color: #d1bba4;
+
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+#commencer {
+    margin-bottom: 30px;
+    font-size: 30px;
+    border: solid 2px #000000;
+}
+
+.container {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 30px;
+    margin-left: 370px;
+    font-size: 35px;
+   
+}
+
+input {
+    border-radius: 15px;
+}
+
+.combien {
+    font-size: 30px;
+    text-shadow: #000000 2PX 2PX 2PX;
+    border-radius: 10px;
+    color: #d1bba4;
+}
+
+.count-leave {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+}
+.count-leave-active{
+    transition: 1s;
+    transform: translateY(-100%) scale(0);
+    opacity:0;
+}
+.count-enter{
+    transform: translateY(-100%) scale(0);
+    opacity:0;
+}
+.count-enter-active{
+    transition: 1s;
+    transform: translateY(-100%) scale(1);
+    opacity:1;
+}
